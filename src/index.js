@@ -25,6 +25,7 @@ ReactDOM.render(
       <Route path="/auctionhouse" element={<AuctionHouse/>}/>
       <Route path="/maketrades" element={<MakeTrades/>}/>
       <Route path="/gettrades" element={<GetTrades/>}/>
+      <Route path="/home" element={<Home/>}/>
     </Routes>
     <Footer />
     </BrowserRouter>
